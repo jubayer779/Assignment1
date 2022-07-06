@@ -1,0 +1,237 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-section{
+   
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.90) 100%),
+            url(images/13.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.bannertext{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 0px 350px;
+    top: 30%;
+    position: relative;
+    
+}
+.bannertext h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+button{
+    padding: 12px 30px;
+    margin-top: 20px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    font-weight: bold;
+}
+
+/* section1 end */
+
+.Donatearea{
+    position: relative;
+    text-align: center;
+}
+.donateamount{
+    
+    margin-left: 20%;
+}
+  
+.DonateToday{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.DonateToday h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.donateamount h2{
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: rgb(238, 234, 230);
+    padding: 20px 25px;  
+    color: gray;
+    margin-bottom: 40px;  
+    
+}
+
+.colorbox{
+    background-color: black;
+}
+
+.donateamount{
+    display: flex;
+}
+.inputamountarea{
+    margin-top: 70px;   
+}
+.inputamount{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: silver;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* section2 end */
+
+.DonatePlanarea{
+    display: flex;
+    padding: 10px 20px;
+    margin-left: 140px;
+    margin-top: 80px;
+   
+}
+
+.DonatePlanFood{
+    background-color: bisque;
+    width: 21%;
+    height: 250px;
+    margin-right: 40px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 40px;
+
+}
+.DonatePlanfamily{
+    background-color: #d0c8ff;
+    width: 21%;
+    height: 250px;
+    margin-right: 40px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.DonatePlanchild{
+    background-color: #add7e7;
+    width: 21%;
+    height: 250px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 40px;   
+}
+.DonatePlanarea img{
+   padding-left: 95px;
+   padding-bottom: 10px;
+}
+.OurDonatePlan h1{
+   text-align: center;
+   padding-top: 100px;
+   font-size: 30px;
+}
+.OurDonatePlan p{
+   text-align: center;
+   padding-top: 15px;
+}    
+/* section3 end */
+
+.livesdependarea{
+    display: flex;
+}
+.livesdepend{
+    width: 45%;
+    margin-left: 158px;
+    padding-top: 170px;
+}
+
+.livesdepend h1{
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+.livesdependarea img{
+    width: 52%;
+    height: 83%;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+/* section4 end */
+
+.needusarea{
+    display: flex;
+}
+.needus{
+    width: 45%;
+    margin-left: 30px;
+    padding-top: 170px;
+    padding-right: 300px;
+}
+
+.needusarea img{
+    width: 62%;
+    height: 80%;
+    margin-top: 120px;
+    margin-left: 155px;
+}
+.needusarea h1{
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+/* section5 end */
+
+.contactsarea{
+    margin-top: 150px;
+    margin-bottom: 170px;
+}
+.contact{
+    text-align: center;
+}
+
+.contact h1{
+    font-size: 40px;
+    margin-bottom: 20px;  
+}
+.contact p{
+    color: grey;
+}
+.sendemail{
+    background-color: burlywood;
+    width: 50%;
+    height: 170px;
+    border-radius: 5px;
+    margin-left: 330px;
+    margin-top:  55px;
+}
+.sendemail input{
+    margin-left: 185px;
+    margin-top: 60px ;
+    padding: 12px 20px;
+    border: none;
+    border-bottom-left-radius: 10px;
+    
+    }
+.sendemail button {
+   margin-left: -5px;
+   border-top-right-radius: 10px;  
+}
+
+/* section6 end */
+
+.footer{
+    background-color: #8f4343 ;
+    height: 160px;
+}
+.footer h1 {
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+
+}
+.footer p {
+    text-align: center;
+    color: white;
+}
